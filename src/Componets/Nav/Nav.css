@@ -1,0 +1,36 @@
+
+.head a{
+    text-decoration: none;
+    color: #363958;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav a{
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    color: dimgrey;
+    
+}
+.login-btn{
+    border: none;
+    font-size: 12px;
+    background-color: green;
+    padding: 2px;
+    width: 60px;
+    height: 25px;
+    color: white;
+    font-weight: 500;
+    transition: 1s;
+    border-radius: 5px;
+}
+.login-btn:hover{
+    background-color:#7611F7;
+}
+.user-name{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #363958;
+}

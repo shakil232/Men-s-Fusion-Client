@@ -1,0 +1,37 @@
+
+.product-img {
+    height: 120px;
+    width: 80%;
+}
+.product-card{
+  box-shadow: 5px 5px 10px lightblue;
+  text-align: center;
+  background-color: white;
+  height: 230px;
+}
+.product-name{
+    /* font-size: 20px; */
+    font-weight: 700;
+    color: #9D0718;
+    margin-top: 5px;
+}
+.product-price{
+    font-size: 19px;
+    font-weight: 700;
+    color: #95b90f;
+    margin-top: 2px;
+}
+.bay-btn{
+   border: none;
+   width: 70px;
+   height: 30px;
+   font-size: 12px;
+   font-weight: 400;
+   background-color: #87a713;
+   color: white;
+   border-radius: 5px;
+   transition: 1s;
+}
+.bay-btn:hover{
+    background-color: green;
+}

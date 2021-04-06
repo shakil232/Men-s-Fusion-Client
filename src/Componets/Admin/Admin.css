@@ -1,0 +1,35 @@
+.side-bar{
+    text-align: justify;
+    height: 510px;
+    background-color: rgb(34, 102, 34);
+    
+}
+.side-bar h5{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+   
+}
+.side-compo-name{
+    margin-top: 30px;
+}
+
+.side-compo-name p{
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    line-height: 20px;
+    transition: 1s;
+}
+.side-compo-name p:hover{
+    background-color: rgb(97, 149, 97);
+    text-decoration: none;
+}
+.side-bar-details {
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+.admin-icons{
+    margin-right: 3px;
+}

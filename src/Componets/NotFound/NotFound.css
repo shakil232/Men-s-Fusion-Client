@@ -1,0 +1,17 @@
+.not-Found {
+    padding: 100px;
+}
+.not-Found h1{
+    color: orangered;
+    font-size: 40px;
+    font-weight: 600;
+}
+#opps{
+    color: #363958;
+    font-size: 50px;
+    font-weight: 700;
+}
+.not-Found h4{
+    color: royalblue ;
+    font-weight: 500;
+}

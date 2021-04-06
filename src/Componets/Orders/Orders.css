@@ -1,0 +1,21 @@
+
+.order-container{
+    border-bottom: 1px solid lightgray;
+    height: 130px;
+}
+
+.img-area img{
+    width: 30%;
+}
+.user-details p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #363958;
+    text-align: justify;
+}
+.product-details p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #363958;
+    text-align: justify;
+}

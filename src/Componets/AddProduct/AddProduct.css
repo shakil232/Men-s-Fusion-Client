@@ -1,0 +1,51 @@
+
+.header{
+    color: rgb(73, 214, 73);
+    font-weight: 700;
+}
+.form{
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 0px 50px 0px 50px;
+    
+}
+
+.input{
+    border: none;
+    width: 280px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    color: dimgrey;
+    padding: 5px;
+}
+
+.save-btn{
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(18, 122, 18) ;
+    color: white;
+    font-size: 14px;
+    font-family: 500;
+    transition: 1s;
+}
+.save-btn:hover{
+    background-color: royalblue;
+}
+.file{
+    font-size: 15px;
+    border: none;
+    
+}
+.label{
+    margin-right: 190px;
+   
+    font-size: 12px;
+    font-weight: 500;
+    color: dimgrey;
+    margin-bottom: -3px;
+}
