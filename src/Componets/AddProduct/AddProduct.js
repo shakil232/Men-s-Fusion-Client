@@ -18,7 +18,7 @@ const AddProduct = () => {
             productUrl: imageUrl
         }
 
-        fetch('http://localhost:4400/addImages', {
+        fetch('https://quiet-chamber-69831.herokuapp.com/addImages', {
             method: "POST",
             headers: {
                 'content-Type': 'application/json'

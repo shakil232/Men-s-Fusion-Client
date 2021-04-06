@@ -15,7 +15,7 @@ const CheckOut = () => {
         // toString("dddd, mmmm dS, yyyy, g:i A TT") 
         const OrderDetails = { product: checkProduct, ...LoggedInUser, Date: (new Date().toString("dddd, mmmm dS, yyyy, g:i A TT")) };
 
-        fetch('http://localhost:4400/orderProduct', {
+        fetch('https://quiet-chamber-69831.herokuapp.com/orderProduct', {
             method: "POST",
             headers: {
                 'content-Type': 'application/json'
@@ -31,7 +31,7 @@ const CheckOut = () => {
     };
 
     useEffect(() => {
-        fetch(`http://localhost:4400/checkProduct/${productId}`)
+        fetch(`https://quiet-chamber-69831.herokuapp.com/checkProduct/${productId}`)
             .then(res => res.json())
             .then(data => setCheckProduct(data))
     }, []);

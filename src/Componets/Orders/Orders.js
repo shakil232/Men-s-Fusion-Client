@@ -12,7 +12,7 @@ const Orders = () => {
     const [addOrder, setAddOrder] = useState([]);
     console.log(addOrder)
     useEffect(() => {
-        fetch('http://localhost:4400/readOrderProducts?email=' + LoggedInUser.email)
+        fetch('https://quiet-chamber-69831.herokuapp.com/readOrderProducts?email=' + LoggedInUser.email)
             .then(res => res.json())
             .then(data => setAddOrder(data))
     }, [])

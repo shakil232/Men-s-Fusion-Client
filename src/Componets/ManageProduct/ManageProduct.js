@@ -11,7 +11,7 @@ const ManageProduct = () => {
     const [manages, setManages] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:4400/manageProducts')
+        fetch('https://quiet-chamber-69831.herokuapp.com/manageProducts')
             .then(res => res.json())
             .then(data => setManages(data))
     }, []);
@@ -23,7 +23,7 @@ const ManageProduct = () => {
      
     // deleteArea
     const deleteProduct = (id) => {
-        fetch(`http://localhost:4400/deleteProduct/${id}`, {
+        fetch(`https://quiet-chamber-69831.herokuapp.com/deleteProduct/${id}`, {
             method: 'DELETE',
         })
             .then(res => res.json())
