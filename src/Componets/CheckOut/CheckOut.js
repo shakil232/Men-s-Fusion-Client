@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import {  useParams } from 'react-router-dom';
 import { UserContext } from '../../App';
 import Nav from '../Nav/Nav';
 import './CheckOut.css'
@@ -63,7 +63,7 @@ const CheckOut = () => {
 
             </div>
 
-            <Link to="/order"><button className="order-btn" onClick={OrderInfo}> Order </button></Link>
+            <button className="order-btn" onClick={OrderInfo}> Order </button>
 
         </div>
     );
